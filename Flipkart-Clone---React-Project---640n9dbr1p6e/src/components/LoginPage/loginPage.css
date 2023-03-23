@@ -1,0 +1,39 @@
+.loginPage {
+    display: flex;
+    /* width: 1000px; */
+    justify-content: space-between;
+    /* padding: 10px 10px 10px 10px; */
+    margin: -20px 0px -20px -30px;
+}
+.leftLoginPage{
+    background-color: #2874f0;
+    color: white;
+    height: 532px;
+    /* padding: 30px 0px 10px 40px; */
+    /* margin: 10px 10px 10px 10px; */
+}
+.leftLoginPage >h2 {
+    padding: 50px 10px 0px 30px;
+    font-size: 1.55rem;
+}
+.leftLoginPage > p {
+    padding: 10px 0px 0px 30px;
+    font-weight: 500;
+}
+.leftLoginPage > img {
+    display: flex;
+    height: 250px;
+    object-fit: contain;
+    /* justify-self: flex-end; */
+    /* align-self: ; */
+    /* justify-content: flex-end; */
+    margin: 146px 0px 0px 0px;
+}
+.rightLoginPage{
+    margin: 100px -100px 0px 20px;
+    padding: 15px 5px 5px 5px;
+}
+.login-form-button{
+margin: 15px;
+/* padding: 5px 10px; */
+}
