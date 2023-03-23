@@ -24,7 +24,7 @@ function Router() {
    </BrowserRouter>
     </DetailContext.Provider>
     <div style={{display: "flex", textAlign: "center", padding: "5px 450px" }} className='footer'>
-      <h3>Designed and developed by</h3> :--  <h2>Aditya Raj</h2>
+      <h3>Designed and developed by</h3> :--  <h2>sk</h2>
       </div>
    </>
   )
