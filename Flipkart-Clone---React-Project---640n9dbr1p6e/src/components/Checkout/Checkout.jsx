@@ -22,7 +22,7 @@ function Checkout() {
 
  const onCheckout = ()=>{
     
-    if(localStorage.getItem("userLoggedIn") !== "aditya"){
+    if(localStorage.getItem("userLoggedIn") !== "sk"){
         alert("You have to log in first");
         // Navigate("/");
     } else{
