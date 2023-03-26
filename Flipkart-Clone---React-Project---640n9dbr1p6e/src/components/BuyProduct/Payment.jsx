@@ -34,8 +34,8 @@ function Payment({ handlePayment }) {
                 </div>
                 <div>
                   <p className="d-flex flex-column mb-0">
-                    <b>Aditya Raj</b>
-                    <span className="small text-muted">**** 9256</span>
+                    <b>SK Tiwari</b>
+                    <span className="small text-muted">**** 9081</span>
                   </p>
                 </div>
               </div>
