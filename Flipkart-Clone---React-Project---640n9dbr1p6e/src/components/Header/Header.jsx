@@ -50,7 +50,7 @@ const Header = () => {
         >
           <div className='header_third1'>
 
-            {localStorage.getItem('userLoggedIn')=="aditya"? (<><span className='welcome'>Welcome Aditya</span><button onClick={()=>localStorage.removeItem('userLoggedIn')}><Link to={'/'}>Logout</Link></button></>)
+            {localStorage.getItem('userLoggedIn')=="SK Tiwari"? (<><span className='welcome'>Welcome SK Tiwari</span><button onClick={()=>localStorage.removeItem('userLoggedIn')}><Link to={'/'}>Logout</Link></button></>)
            : ( <button onClick={() => setOpenModal(true)}>Login</button>) 
            
             }
