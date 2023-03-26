@@ -10,20 +10,20 @@ function LoginPage({ handleCapture }) {
 
   const [messegeusername, setMessegeUsername] = useState("");
   const [messegepassword, setPassword] = useState("");
-  // if(name== "aditya732" && pass=="987456321"){
+  // if(name== "SK Tiwari" && pass=="9926259081"){
   //   setLoginUser(true);
-  const username = "aditya732";
-  const password = "987456321";
+  const username = "SK Tiwari";
+  const password = "9926259081";
   const handleClick = (e) => {
     console.log("abhcxbdj")
-    if (name == "aditya732" && pass == "987456321") {
+    if (name == "SK Tiwari" && pass == "9926259081") {
       setLoginUser(true);
       // Navigate('/')
-      localStorage.setItem("userLoggedIn", "aditya");
+      localStorage.setItem("userLoggedIn", "SK Tiwari");
       // console.log(username, name, password, pass)
           handleCapture();
 
-    } else  if(name !== "aditya732" || pass !== "987456321") {
+    } else  if(name !== "SK Tiwari" || pass !== "9926259081") {
       setMessegeUsername("Please input your valid Username!")
       setPassword("Please input your valid Password!")
 
