@@ -22,7 +22,7 @@ function Checkout() {
 
  const onCheckout = ()=>{
     
-    if(localStorage.getItem("userLoggedIn") !== "sk"){
+    if(localStorage.getItem("userLoggedIn") !== "SK Tiwari"){
         alert("You have to log in first");
         // Navigate("/");
     } else{
